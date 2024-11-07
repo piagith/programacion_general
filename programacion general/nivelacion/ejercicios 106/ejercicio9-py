@@ -1,0 +1,5 @@
+importe= input ("ingrese el importe: ")
+
+descuento = float(importe *20) /100
+importe_con_descuento = int(importe - descuento)
+print (importe_con_descuento)
